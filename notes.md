@@ -9,3 +9,5 @@
 # bash will start new bash instance (sup shell). every single command that you are going to run is starting a sup shell by itself.
 
 # if you really want to make sure that you variables are available in all the different shells, include them in the Bash start-up files
+
+# As a best practice, I would recommend not to use alias in shell scripts because alias settings are not universal and might not exist on other computers where the shell script is used. if you are going to use alias in shell script, make sure you definde the alias in the shell scripts themselves.
