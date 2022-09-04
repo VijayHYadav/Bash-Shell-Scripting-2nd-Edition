@@ -11,3 +11,7 @@
 # if you really want to make sure that you variables are available in all the different shells, include them in the Bash start-up files
 
 # As a best practice, I would recommend not to use alias in shell scripts because alias settings are not universal and might not exist on other computers where the shell script is used. if you are going to use alias in shell script, make sure you definde the alias in the shell scripts themselves.
+
+# A subshell is opened when commands are executed, because every command that is executed on linux starts its own subshell. and in it's own subshell, the command is working with its own environment.
+
+# .bash_logout which can be used to clean up things when users are logging out. this is a file that is often forgotten, by the way. but if you want to make sure that some housekeeping is done when users are logging out, then this is where you need to look.
