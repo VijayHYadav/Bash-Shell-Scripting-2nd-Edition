@@ -15,3 +15,5 @@
 # A subshell is opened when commands are executed, because every command that is executed on linux starts its own subshell. and in it's own subshell, the command is working with its own environment.
 
 # .bash_logout which can be used to clean up things when users are logging out. this is a file that is often forgotten, by the way. but if you want to make sure that some housekeeping is done when users are logging out, then this is where you need to look.
+
+# If you aim is to optimize and ultimate, using a linux shell, learn bash.
