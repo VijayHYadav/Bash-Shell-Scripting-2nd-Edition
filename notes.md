@@ -3,3 +3,5 @@
 # man -k user which is searching the man pages on linux for the keyword user.
 
 # man -k user | grep 8 which means that grep 8 is filtering out all the lines that contains an 8 and then, it becomes a little bit more readable.
+
+# help this will get the list of internal commands
