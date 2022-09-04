@@ -1,0 +1,5 @@
+#!/bin/bash
+# lab solution for scripting course
+
+clear
+printf "%s\n" "hello world"
