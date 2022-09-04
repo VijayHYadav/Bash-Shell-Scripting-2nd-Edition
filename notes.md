@@ -5,3 +5,7 @@
 # man -k user | grep 8 which means that grep 8 is filtering out all the lines that contains an 8 and then, it becomes a little bit more readable.
 
 # help this will get the list of internal commands
+
+# bash will start new bash instance (sup shell). every single command that you are going to run is starting a sup shell by itself.
+
+# if you really want to make sure that you variables are available in all the different shells, include them in the Bash start-up files
