@@ -52,3 +52,20 @@ And that's something
 to be really aware of.
 We'll talk about it
 further in the next video.
+
+## bashing/main
+Now notice that I'm using
+a relative path here.
+You should guarantee that at any time
+even if your script is
+moved to somewhere else,
+the sourcefiles are findable.
+And that is why you might want to consider
+putting them in a user
+local bin source files
+or something like that.
+But that is something that
+depends on how you want to design
+the way that scripts and
+their dependencies are stored
+on your operating system.
