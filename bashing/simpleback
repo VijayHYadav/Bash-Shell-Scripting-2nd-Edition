@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# simple demo backup script
+# writes backup file to current dir, and backs up everything provided as an argument
+
+if [ -z $1 ]
+then
+	echo argument required
+	exit 9
+fi
+
+sudo tar -cvf $(date +%d-%m-%Y).bak $@
