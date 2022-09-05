@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo enter firstname, lastname and city
+read firstname lastname city
+echo nice to meet you $firstname $lastname from $city
