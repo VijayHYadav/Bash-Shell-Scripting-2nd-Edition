@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo the script has $# arguments
+
+echo print $1
+shift
+echo print $1
+shift 3
+echo print $1
